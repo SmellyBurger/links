@@ -1,11 +1,11 @@
 body {
-  background-color: powderblue;
+    background-color: powderblue;
 }
 
 title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  min-height: 100;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
